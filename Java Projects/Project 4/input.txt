@@ -1,0 +1,26 @@
+create planetSystem Sun 5500 0 50 0.1
+create planetSystem Sun 5500 0 0 0.1
+addPlanet Mercury Sun 440 0.1 0.01 0.2
+addSatellite MercuryMoon Mercury 200 0.5 10 0.3
+addPlanet Venus Mercury 460 0.2 0.05 0.25
+addPlanet Earth Mercury 288 1 0.7 0.15
+addPlanet Mars MercuryMoon 210 0.6 0.2 0.3
+addSatellite Overwet Venus 200 0.5 110 0.2
+addSatellite VenusSatellite Venus 240 0.7 20 0.25
+addSatellite ISS Venus -270 -1.0 0.0 -1.2
+addPlanet Earth Venus 288 1 0.7 0.15
+addPlanet Mars Earth 210 0.6 0.2 0.3
+addPlanet Jupiter Mars 120 1.5 0.1 0.6
+addPlanet Saturn Jupiter 95 1.3 0.05 0.5
+addSatellite Titan Saturn 93 1.4 0.1 0.4
+addPlanet Titan Mars 100 0.9 5 0.2
+addSatellite Phantom MoonBase 250 0.8 5 0.3
+findRadiationAnomalies 0.3
+findRadiationAnomalies 2.0
+getPathTo Titan
+getPathTo ISS
+getPathTo UnknownObject
+printMissionReport
+printMissionReport Mars
+printMissionReport Pluto
+exit

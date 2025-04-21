@@ -1,0 +1,5 @@
+Student Information:
+ID: 1060672859, Name: Emirhan, Grade: 100.00
+ID: 1060672848, Name: Enes, Grade: 99.00
+ID: 0, Name: oss, Grade: 98.00
+Average Grade: 99.00

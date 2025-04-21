@@ -1,0 +1,8 @@
+The developed program for CSE102 Assignment 5 successfully fulfills its objectives by providing a user-friendly interface for reading news texts, managing previously read items, and decrypting experiment keys. Implemented in C language, the program utilizes functions, file handling, and input/output operations effectively to achieve the desired functionality. Extensive testing ensures correct behavior in various scenarios, meeting the assignment requirements with robustness and accuracy. Overall, the program demonstrates proficiency in programming concepts and meets the expectations set forth by the assignment guidelines.
+
+https://www.youtube.com/watch?v=wClnYP5Mhso
+
+
+Emirhan Çalışkan 
+
+StudentNO:220104004955

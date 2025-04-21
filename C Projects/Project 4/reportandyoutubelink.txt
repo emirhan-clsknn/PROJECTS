@@ -1,0 +1,6 @@
+The assignment required the development of a C program that enables users to query and manipulate data stored in text files containing information about individuals. By implementing utility functions to extract and process data from the provided files and creating a menu-driven interface for user queries, the program successfully fulfills the requirements. Despite challenges such as strict adherence to guidelines and ensuring accurate calculations, thorough testing ensured the correctness and functionality of the solution. Possible future enhancements may include optimizing file reading operations and improving error-handling mechanisms for enhanced usability.
+
+
+https://www.youtube.com/watch?v=GONBOrDX8wk
+
+Emirhan Çalışkan

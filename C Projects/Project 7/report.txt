@@ -1,0 +1,9 @@
+In completing Assignment 7 for CSE102, I meticulously followed the instructions to create a compelling board game experience. The game, centered around distributing stones across a strategically arranged board comprising 12 small cups and two large cups at each end, required careful planning and implementation. By leveraging arrays and functions, I meticulously crafted each aspect of the game to adhere precisely to the provided specifications.
+
+The implementation process involved several key steps. First, I designed the initializeGame() function to properly set up the game board, ensuring the correct placement of stones in each small cup while designating player and computer sides effectively. Then, the printBoard() function was developed to offer players a clear view of the current state of the game, displaying the number of stones in each cup and highlighting the large cups for both the player and the computer.
+
+https://www.youtube.com/watch?v=cfon3obS-ao
+
+Emirhan Çalışkan 
+
+220104004955

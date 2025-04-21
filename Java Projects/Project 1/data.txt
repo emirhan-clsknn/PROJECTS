@@ -1,0 +1,5 @@
+I2C,SPI,OneWire,UART
+1
+1
+1
+1

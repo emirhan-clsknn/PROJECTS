@@ -1,0 +1,8 @@
+I encrypted the data I obtained from an input file and wrote it to an output file in C code for my assignment. Later, I decrypted the data from this output file and wrote the same C code back to another file. The most challenging part of the project for me was the commenting section. Overall, the project provided me with a lot of valuable knowledge. After completing the project, I felt that I had improved my coding skills.
+
+gcc --ansi 220104004955_part1.c -o homework1_1
+gcc --ansi 220104004955_part2.c -o homework1_2
+
+./homework1_1 < input.txt > encrypted.txt
+./homework1_2 < encrypted.txt >decrypted.txt
+

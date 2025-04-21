@@ -1,0 +1,12 @@
+To begin with, I implemented the init_game function to read data from the init.txt file and create instances of the forest and botanist accordingly. The file provides information such as the forest's dimensions (height and width), the botanist's starting coordinates (Coord_X, Coord_Y), and the volume of the water bottle (Water_Bottle_Size). I parsed this data from the file and initialized the forest map (Map) based on the provided layout.
+
+For the search function, I enabled the botanist to navigate through the forest recursively, looking for the rare flower. The botanist can move only on empty spaces (' '), and I implemented this movement using recursion while keeping track of the botanist's path. When the rare flower is found, the program displays "I've found it!" and replaces the flower with an empty space (' ').
+
+The display_forest function was used to show the number of flowers collected, the remaining water bottle volume, and the botanist's coordinates on the screen. I updated the forest map dynamically with each movement of the botanist and displayed the visible portion of the forest accordingly.
+
+Finally, I saved the last view of the forest and botanist's information to the last.txt file. This file contains the final state of the forest map and the botanist's location upon exiting the program.
+
+
+Emirhan Çalışkan 
+
+220104004955

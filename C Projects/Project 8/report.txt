@@ -1,0 +1,5 @@
+For this assignment, I developed a C program consisting of two parts. In the first part, I read information from a text file named "input1.txt" and stored it in a multidimensional array. I implemented a menu system where users could sort individuals by age, sort by branches, and filter based on specific criteria such as profession. The program continuously prompted the user to make selections and handled invalid inputs with appropriate error messages. In the second part, I processed character patterns from another text file ("input2.txt") without converting the input to a two-dimensional character array. I wrote functions to search for specific row, column, and diagonal patterns and displayed the results accordingly. The program utilized only stdio.h and string.h libraries, and I provided detailed explanations and screenshots of program execution in the report.
+
+
+Emirhan Caliskan
+220104004955

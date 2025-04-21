@@ -1,0 +1,11 @@
+java -cp build Main.Main config2.txt ./logs
+Device added.
+list of ports:
+0 I2C occupied MPU6050 IMUSensor Sensor 0 OFF
+1 SPI empty
+2 I2C empty
+3 UART empty
+list of Sensors:
+MPU6050 0 0 I2C
+MPU6050: Turning ON.
+Exiting ...

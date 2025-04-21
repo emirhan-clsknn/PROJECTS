@@ -1,0 +1,39 @@
+java -cp build Main.Main config2.txt ./logs1
+Device added.
+Device added.
+MPU6050: Turning ON.
+GY_951: Turning ON.
+GY_951 IMUSensor Sensor: Accel: 1.00, Rot: 0.50.
+MPU6050 IMUSensor Sensor: Accel: 1.00, Rot: 0.50.
+MPU6050: Turning OFF.
+GY_951: Turning OFF.
+Device removed.
+Device removed.
+Device added.
+OLED: Turning ON.
+OLED: Printing "Hello".
+OLED: Turning OFF.
+Device removed.
+Device added.
+Device added.
+PCA9685: Turning ON.
+SparkFunMD: Turning ON.
+PCA9685: Setting speed to 10.
+SparkFunMD: Setting speed to 10.
+PCA9685: Turning OFF.
+SparkFunMD: Turning OFF.
+Device removed.
+Device removed.
+Device added.
+Device added.
+Wifi: Turning ON.
+Bluetooth: Turning ON.
+Wifi: Sending "Hello".
+Bluetooth: Sending "Hello".
+Wifi: Received "Some Data".
+Bluetooth: Received "Some Data".
+Wifi: Turning OFF.
+Bluetooth: Turning OFF.
+Device removed.
+Device removed.
+Exiting ...

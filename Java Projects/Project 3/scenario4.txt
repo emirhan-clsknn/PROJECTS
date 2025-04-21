@@ -1,0 +1,117 @@
+addDev DHT11 0 0        
+addDev DHT11 1 1        
+addDev DHT11 2 2        
+addDev DHT11 3 3        
+addDev DHT11 4 4        
+addDev DHT11 5 5        
+addDev DHT11 6 6        
+addDev DHT11 7 7        
+list ports              // Shows 2 DHT11
+rmDev 2                 
+rmDev 3                 
+addDev BME280 0 0       
+addDev BME280 1 1       
+addDev BME280 2 2       
+addDev BME280 3 3       
+addDev BME280 4 4       
+addDev BME280 5 5       
+addDev BME280 6 6       
+addDev BME280 7 7       
+list ports              // Shows 4 BME280
+rmDev 0                 
+rmDev 1                 
+rmDev 6                 
+rmDev 7                 
+addDev GY951 0 0        
+addDev GY951 1 1        
+addDev GY951 2 2        
+addDev GY951 3 3        
+addDev GY951 4 4        
+addDev GY951 5 5        
+addDev GY951 6 6        
+addDev GY951 7 7        
+list ports              // Shows 4 GY951
+rmDev 1                 
+rmDev 4                 
+rmDev 5                 
+rmDev 6                 
+addDev MPU6050 0 0      
+addDev MPU6050 1 1      
+addDev MPU6050 2 2      
+addDev MPU6050 3 3      
+addDev MPU6050 4 4      
+addDev MPU6050 5 5      
+addDev MPU6050 6 6      
+addDev MPU6050 7 7      
+list ports              // Shows 2 MPU6050
+rmDev 0                 
+rmDev 7                 
+addDev LCD 0 0          
+addDev LCD 1 1          
+addDev LCD 2 2          
+addDev LCD 3 3          
+addDev LCD 4 4          
+addDev LCD 5 5          
+addDev LCD 6 6          
+addDev LCD 7 7          
+list ports              // Shows 2 LCD
+rmDev 0                 
+rmDev 7                 
+addDev OLED 0 0         
+addDev OLED 1 1         
+addDev OLED 2 2         
+addDev OLED 3 3         
+addDev OLED 4 4         
+addDev OLED 5 5         
+addDev OLED 6 6         
+addDev OLED 7 7         
+list ports              // Shows 2 OLED
+rmDev 1                 
+rmDev 6                 
+addDev PCA9685 0 0      
+addDev PCA9685 1 1      
+addDev PCA9685 2 2      
+addDev PCA9685 3 3      
+addDev PCA9685 4 4      
+addDev PCA9685 5 5      
+addDev PCA9685 6 6      
+addDev PCA9685 7 7      
+list ports              // Shows 2 PCA9685
+rmDev 0                 
+rmDev 7                 
+addDev SparkFunMD 0 0   
+addDev SparkFunMD 1 1   
+addDev SparkFunMD 2 2   
+addDev SparkFunMD 3 3   
+addDev SparkFunMD 4 4   
+addDev SparkFunMD 5 5   
+addDev SparkFunMD 6 6   
+addDev SparkFunMD 7 7   
+list ports              // Shows 2 SparkFunMD
+rmDev 1                 
+rmDev 6                 
+addDev Wifi 0 0         
+addDev Wifi 1 1         
+addDev Wifi 2 2         
+addDev Wifi 3 3         
+addDev Wifi 4 4         
+addDev Wifi 5 5         
+addDev Wifi 6 6         
+addDev Wifi 7 7         
+list ports              // Shows 2 Wifi
+rmDev 1                 
+rmDev 4                 
+rmDev 5                 
+rmDev 6                 
+addDev Bluetooth 0 0    
+addDev Bluetooth 1 1    
+addDev Bluetooth 2 2    
+addDev Bluetooth 3 3    
+addDev Bluetooth 4 4    
+addDev Bluetooth 5 5    
+addDev Bluetooth 6 6    
+addDev Bluetooth 7 7    
+list ports              // Shows 2 Bluetooth
+rmDev 4                 
+rmDev 5                 
+exit                    

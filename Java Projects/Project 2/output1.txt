@@ -1,0 +1,36 @@
+java -cp build Main.Main config1.txt ./logs
+Device added.
+Device added.
+Device added.
+Device added.
+list of ports:
+0 I2C occupied LCD Display 0 OFF
+1 SPI occupied SparkFunMD MotorDriver 0 OFF
+2 OneWire occupied DHT11 TempSensor Sensor 0 OFF
+3 UART occupied Wifi WirelessIO 0 OFF
+list of Displays:
+LCD 0 0 I2C
+LCD: Turning ON.
+LCD: Printing "Hello".
+list of MotorDrivers:
+SparkFunMD 0 1 SPI
+SparkFunMD: Turning ON.
+SparkFunMD: Setting speed to 10.
+list of Sensors:
+DHT11 0 2 OneWire
+DHT11: Turning ON.
+DHT11 TempSensor Sensor: Temp: 24.00C.
+list of WirelessIOs:
+Wifi 0 3 UART
+Wifi: Turning ON.
+Wifi: Received "Some Data".
+Wifi: Sending "Hello".
+LCD: Turning OFF.
+SparkFunMD: Turning OFF.
+DHT11: Turning OFF.
+Wifi: Turning OFF.
+Device removed.
+Device removed.
+Device removed.
+Device removed.
+Exiting ...

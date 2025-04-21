@@ -1,0 +1,12 @@
+java -cp build Main.Main config3.txt ./logs3
+Device added.
+Device added.
+BME280: Turning ON.
+GY_951: Turning ON.
+BME280 TempSensor Sensor: Temp: 24.00C.
+GY_951 IMUSensor Sensor: Accel: 1.00, Rot: 0.50.
+BME280: Turning OFF.
+GY_951: Turning OFF.
+Device removed.
+Device removed.
+Exiting ...

@@ -1,0 +1,7 @@
+The objective of the assignment is to create a C program that generates a histogram illustrating the frequency of numbers within a specified interval, allows users to add new numbers to the histogram, and perform mathematical operations on the numbers. In the first part, the program prompts the user to input a range, based on which a histogram is drawn. The second part provides an option for the user to add additional numbers to the histogram, with the histogram updating accordingly. Lastly, the third part involves calculating the mean, mode, and median of the numbers within the specified interval.
+
+https://www.youtube.com/watch?v=qUR1g0PoLUE
+
+Emirhan Çalışkan 
+
+StudentNO:220104004955

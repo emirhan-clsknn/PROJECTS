@@ -1,0 +1,9 @@
+
+This assignment has positively impacted my development in coding in many aspects. It has provided me with numerous ideas in data inspection and analysis. Of course, there were challenges along the way, but I overcame them through research. By the time I finished the assignment, I felt more proficient in data examination and coding.
+
+gcc --ansi 220104004955.c -o homework1_1
+
+
+./homework1_1
+
+https://www.youtube.com/watch?v=ofzbsxTUZGA

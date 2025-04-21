@@ -1,0 +1,10 @@
+First of all, the most challenging part for me while creating this program was drawing a game board without using a two-dimensional array. However, I overcame this problem by proceeding with the tasks step by step. I had no idea about game development when I started this assignment, but it gave me many ideas about it. While working on this assignment, I truly felt that I improved my coding skills.
+
+
+gcc --ansi Emirhan_Caliskan.c -o homework1_1
+
+https://www.youtube.com/watch?v=qRTejdQMvw8
+
+./homework1_1
+
+StudentNO:220104004955

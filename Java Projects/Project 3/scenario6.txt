@@ -1,0 +1,8 @@
+addDev DHT11 2 0        // devID out-of-bounds
+addDev LCD 0 0          // devID out-of-bounds
+addDev Wifi 1 0         // devID out-of-bounds
+addDev PCA9685 0 4      // devID out-of-bounds
+addDev PCA9685 4 1      // portID out-of-bounds
+addDev blabla 100 100   // nonsense
+list ports              // Shows nothing
+exit                    // OK

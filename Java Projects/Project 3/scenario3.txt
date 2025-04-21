@@ -1,0 +1,13 @@
+addDev MPU6050 0 1  
+addDev BME280 0 0   
+addDev GY951 3 1    
+addDev GY951 3 0    
+turnON 0            
+turnON 3            
+readSensor 0         
+readSensor 1         
+turnOFF 0           
+turnOFF 3           
+rmDev 0             
+rmDev 3             
+exit                

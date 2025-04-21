@@ -1,0 +1,13 @@
+T,T,T,T,T,T,T,T,T,T
+ , , , ,T,T, , , ,T
+T, ,T, , , , ,T, ,T
+T,T,T,T,T,T, ,T, ,T
+T, ,T, , , , ,T,T,T
+T, ,T, ,T, , , , ,T
+T, ,T, ,T,T,T,T,T,T
+T, ,T, , , , , , ,T
+T, ,T,T,T,T, ,T, ,T
+T, , ,T, ,T,B,T,T,T
+Founded flower:10
+Botanist coordinates: (9, 6)
+Water bottle size: 97

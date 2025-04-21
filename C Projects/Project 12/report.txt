@@ -1,0 +1,32 @@
+This report explains how a custom dictionary data structure and its associated functions were designed and implemented using the C programming language. The custom dictionary is designed to store key-value pairs and support various data types.
+
+
+
+The CustomDict structure represents the dictionary data structure. It contains a dynamically resizable array to store key-value pairs.
+The Item structure represents each key-value pair, containing the key, values, and other necessary information.
+The Value union structure is used to store different data types, including integers (int), floating-point numbers (float or double), or characters (char).
+
+
+create_dict(): Used to create an empty custom dictionary.
+resize_dict(): Increases the capacity of the custom dictionary.
+add_item(): Adds a new key-value pair to the dictionary.
+delete_item(): Deletes a specified key-value pair.
+set_value(): Modifies the value of an existing key.
+search_item(): Searches for values associated with a specified key.
+sort_dict(): Sorts the dictionary based on keys.
+print_dict(): Prints the contents of the dictionary.
+free_dict(): Frees the memory allocated for the custom dictionary.
+read_csv(): Reads key-value pairs from a CSV file.
+
+
+Each function is designed according to the requirements of the custom dictionary data structure.
+Dynamic memory management (malloc, realloc, free) is used appropriately to prevent memory leaks.
+Each function performs a specific task, with clear input parameters and return values.
+Data types and return values clearly express the purpose of the functions.
+Error handling is provided with appropriate return values in case of errors.
+Conclusion and Recommendations:
+This report has explained the design and implementation of a custom dictionary data structure and its functions. The usage of the data structure is ideal for storing key-value pairs and supporting various data types. For further improvement, performance enhancements or additional functions could be added to the code.
+
+Emirhan Çalışkan 220104004955
+
+Kod içerisinde yorum satırlarıyla kod ne yapıyor açıklama olarak yazdım zaten

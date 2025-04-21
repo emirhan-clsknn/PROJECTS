@@ -1,0 +1,7 @@
+addDev DHT11 2 0    // OK
+readSensor 0        // Device turned OFF
+turnON 2            // OK
+rmDev 2             // Device turned ON
+turnOFF 2           // OK
+rmDev 2             // OK
+exit                // OK
