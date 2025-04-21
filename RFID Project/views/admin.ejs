@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Paneli</title>
+    <link rel="stylesheet" href="/public/style.css">
+</head>
+
+<body>
+    <h1>Admin Paneli</h1>
+
+    <!-- Kişi Listesi -->
+    <h2>Kişiler</h2>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>İsim</th>
+                <th>Soyisim</th>
+                <th>Token</th>
+                <th>Bakiye</th>
+                <th>Bakiye Ekle</th>
+            </tr>
+        </thead>
+        <tbody>
+            <% users.forEach(function(user) { %>
+                <tr>
+                    <td>
+                        <%= user.name %>
+                    </td>
+                    <td>
+                        <%= user.surname %>
+                    </td>
+                    <td>
+                        <%= user.token %>
+                    </td>
+                    <td>
+                        <%= user.balance %> TL
+                    </td>
+                    <td>
+                        <form action="/admin/addBalance" method="POST">
+                            <input type="hidden" name="userId" value="<%= user._id %>">
+                            <input type="number" name="balance" placeholder="Bakiye ekle" required>
+                            <button type="submit">Ekle</button>
+                        </form>
+                    </td>
+                </tr>
+                <% }) %>
+        </tbody>
+    </table>
+
+    <!-- Yeni Kişi Ekleme -->
+    <h2>Yeni Kişi Ekle</h2>
+    <form action="/admin/addUser" method="POST">
+        <input type="text" name="name" placeholder="İsim" required>
+        <input type="text" name="surname" placeholder="Soyisim" required>
+        <input type="text" name="token" placeholder="Token" required>
+        <input type="number" name="balance" placeholder="Bakiye" required>
+        <button type="submit">Kişi Ekle</button>
+    </form>
+</body>
+
+</html>
